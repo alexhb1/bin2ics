@@ -1,5 +1,8 @@
 name: Update bin calendar
 
+permissions:
+  contents: write   # allow pushes/commits from this workflow
+
 on:
   schedule:
     # Runs every Monday at 06:05 UTC ≈ 07:05 UK time (handles BST)
