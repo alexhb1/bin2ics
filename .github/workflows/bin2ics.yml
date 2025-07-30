@@ -1,0 +1,36 @@
+name: Update bin calendar
+
+on:
+  schedule:
+    # Runs every Monday at 06:05 UTC ≈ 07:05 UK time (handles BST)
+    - cron: "5 6 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🛎️  Check out repo
+        uses: actions/checkout@v4
+
+      - name: 🐍  Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 📦  Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: 📆  Regenerate .ics
+        env:
+          BINCOLL_URL: ${{ secrets.BINCOLL_URL }}
+        run: |
+          python bin2ics.py --output collections.ics --verbose
+
+      - name: 🚀  Commit & push if changed
+        uses: EndBug/add-and-commit@v9
+        with:
+          message: "Auto‑update bin calendar"
+          add: "collections.ics"
