@@ -90,7 +90,8 @@ def _build_calendar(events: list[tuple[str, _dt.date]]) -> Calendar:
     cal = Calendar()
     for bin_type, date in events:
         ev = Event()
-        name = f"{EMOJI.get(bin_type, '')} {bin_type} collection".strip()
+        SHORT = {"Household waste": "Household Waste", "Mixed recycling": "Recycling", "Garden waste recycling": "Garden"}
+        name = f"{EMOJI.get(bin_type, '')} {SHORT.get(bin_type, bin_type)}".strip()
         ev.name = name
         ev.begin = _dt.datetime.combine(date, _dt.time.min).astimezone()
         ev.make_all_day()
