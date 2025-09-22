@@ -2,12 +2,20 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:ics.py - http://git.io/lLljaA
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251119
+DTSTART;VALUE=DATE:20251015
+CATEGORIES:Mixed recycling
+DESCRIPTION:Put out the mixed recycling bin.
+LOCATION:Kerbside
+SUMMARY:♻️ Recycling
+UID:87162d6c-c677-4bf3-88b0-6d9351333b1f@8716.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260114
 CATEGORIES:Household waste
 DESCRIPTION:Put out the household waste bin.
 LOCATION:Kerbside
 SUMMARY:🗑️ Household Waste
-UID:3bea617e-9980-4417-8678-7059500bda91@3bea.org
+UID:2f86cd0a-6e46-4247-9760-95ab8fe459f3@2f86.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251008
@@ -15,55 +23,7 @@ CATEGORIES:Garden waste recycling
 DESCRIPTION:Put out the garden waste recycling bin.
 LOCATION:Kerbside
 SUMMARY:🌿 Garden
-UID:436b66ec-26d0-4c7d-abb9-42f57029be83@436b.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251203
-CATEGORIES:Household waste
-DESCRIPTION:Put out the household waste bin.
-LOCATION:Kerbside
-SUMMARY:🗑️ Household Waste
-UID:ffba9ede-08a8-4f13-b497-07c0020a3eeb@ffba.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251105
-CATEGORIES:Household waste
-DESCRIPTION:Put out the household waste bin.
-LOCATION:Kerbside
-SUMMARY:🗑️ Household Waste
-UID:e5c9d1b2-24d7-457c-b4ba-7816877a3c1c@e5c9.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251231
-CATEGORIES:Household waste
-DESCRIPTION:Put out the household waste bin.
-LOCATION:Kerbside
-SUMMARY:🗑️ Household Waste
-UID:8dbc3322-5f3b-4713-bc94-1b4d6fdfca34@8dbc.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251217
-CATEGORIES:Household waste
-DESCRIPTION:Put out the household waste bin.
-LOCATION:Kerbside
-SUMMARY:🗑️ Household Waste
-UID:23253dbf-6809-4a69-a2c6-d830851a0793@2325.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251210
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:e274cc2f-e253-406f-ac9d-4ab81d9b7fe1@e274.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251001
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:b0a6db3a-4cdd-4f34-8613-32db7e46436f@b0a6.org
+UID:dc1d28f3-cf31-488c-8010-8cd588adbda2@dc1d.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251126
@@ -71,31 +31,7 @@ CATEGORIES:Mixed recycling
 DESCRIPTION:Put out the mixed recycling bin.
 LOCATION:Kerbside
 SUMMARY:♻️ Recycling
-UID:432c8b61-3093-4bd1-928c-f034eda6e453@432c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251105
-CATEGORIES:Garden waste recycling
-DESCRIPTION:Put out the garden waste recycling bin.
-LOCATION:Kerbside
-SUMMARY:🌿 Garden
-UID:ff8a559e-5fa8-4e76-888c-be0a8ea81460@ff8a.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251008
-CATEGORIES:Household waste
-DESCRIPTION:Put out the household waste bin.
-LOCATION:Kerbside
-SUMMARY:🗑️ Household Waste
-UID:d63944c4-c322-45b6-825c-05d62f8ded62@d639.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251022
-CATEGORIES:Garden waste recycling
-DESCRIPTION:Put out the garden waste recycling bin.
-LOCATION:Kerbside
-SUMMARY:🌿 Garden
-UID:db1ec7ce-5d0e-4262-8603-334d373d7015@db1e.org
+UID:510a9d1a-772f-43cd-a055-f1d4f8ecd09b@510a.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251119
@@ -103,55 +39,39 @@ CATEGORIES:Garden waste recycling
 DESCRIPTION:Put out the garden waste recycling bin.
 LOCATION:Kerbside
 SUMMARY:🌿 Garden
-UID:7ba1b703-f369-4452-b619-f8ffffefbd66@7ba1.org
+UID:8bfd642f-6008-4aa1-8aa3-1f97ec117eb5@8bfd.org
 END:VEVENT
 BEGIN:VEVENT
-DTSTART;VALUE=DATE:20260107
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:505d501f-fa5a-4e66-bfeb-bf424a5cbf9a@505d.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251029
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:5b1c43a7-e418-4982-a2b0-41faafa97b64@5b1c.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251224
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:54f46a59-ed57-46bc-8b0f-2817ff54abe9@54f4.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250917
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:6f50be1d-4e05-458d-8f21-05a63eea4167@6f50.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20251015
-CATEGORIES:Mixed recycling
-DESCRIPTION:Put out the mixed recycling bin.
-LOCATION:Kerbside
-SUMMARY:♻️ Recycling
-UID:a92572c0-9765-4d81-a252-efc7a4a89301@a925.org
-END:VEVENT
-BEGIN:VEVENT
-DTSTART;VALUE=DATE:20250924
+DTSTART;VALUE=DATE:20251008
 CATEGORIES:Household waste
 DESCRIPTION:Put out the household waste bin.
 LOCATION:Kerbside
 SUMMARY:🗑️ Household Waste
-UID:a2db7dc1-6b56-49bd-8fae-3579002bd14e@a2db.org
+UID:010d1240-5b21-47ad-ab43-13dd0d1acbe3@010d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251105
+CATEGORIES:Garden waste recycling
+DESCRIPTION:Put out the garden waste recycling bin.
+LOCATION:Kerbside
+SUMMARY:🌿 Garden
+UID:37df8e99-1ff1-4ea5-9134-93bb797f4372@37df.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251231
+CATEGORIES:Household waste
+DESCRIPTION:Put out the household waste bin.
+LOCATION:Kerbside
+SUMMARY:🗑️ Household Waste
+UID:bbe1780c-41e8-4e77-9859-1b8f08abc135@bbe1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251203
+CATEGORIES:Household waste
+DESCRIPTION:Put out the household waste bin.
+LOCATION:Kerbside
+SUMMARY:🗑️ Household Waste
+UID:ed18c087-b560-4f7c-a434-a57b0d2fa538@ed18.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20250924
@@ -159,7 +79,7 @@ CATEGORIES:Garden waste recycling
 DESCRIPTION:Put out the garden waste recycling bin.
 LOCATION:Kerbside
 SUMMARY:🌿 Garden
-UID:6ae893eb-2df4-465a-b7e7-84c901ebde4d@6ae8.org
+UID:d05808ea-23e7-495a-83c4-f10d05ea9dab@d058.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251112
@@ -167,7 +87,63 @@ CATEGORIES:Mixed recycling
 DESCRIPTION:Put out the mixed recycling bin.
 LOCATION:Kerbside
 SUMMARY:♻️ Recycling
-UID:02d7ce2f-4333-4c12-8cbf-429f168e8305@02d7.org
+UID:2ea10326-08bc-456f-9c0d-7b5d5a3dd55f@2ea1.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251029
+CATEGORIES:Mixed recycling
+DESCRIPTION:Put out the mixed recycling bin.
+LOCATION:Kerbside
+SUMMARY:♻️ Recycling
+UID:a47b890b-eaae-41e7-805a-d1bae9fa6dec@a47b.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251001
+CATEGORIES:Mixed recycling
+DESCRIPTION:Put out the mixed recycling bin.
+LOCATION:Kerbside
+SUMMARY:♻️ Recycling
+UID:7ba009f8-97a4-4920-9306-fcdbf7d97fe0@7ba0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251022
+CATEGORIES:Garden waste recycling
+DESCRIPTION:Put out the garden waste recycling bin.
+LOCATION:Kerbside
+SUMMARY:🌿 Garden
+UID:96e626de-afee-49af-8e90-1ff73d50807a@96e6.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251224
+CATEGORIES:Mixed recycling
+DESCRIPTION:Put out the mixed recycling bin.
+LOCATION:Kerbside
+SUMMARY:♻️ Recycling
+UID:7f01a647-3acf-43a3-b682-d52add207b2d@7f01.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251210
+CATEGORIES:Mixed recycling
+DESCRIPTION:Put out the mixed recycling bin.
+LOCATION:Kerbside
+SUMMARY:♻️ Recycling
+UID:aee08924-9aea-4487-a33e-77ef0f6f7e20@aee0.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251119
+CATEGORIES:Household waste
+DESCRIPTION:Put out the household waste bin.
+LOCATION:Kerbside
+SUMMARY:🗑️ Household Waste
+UID:82bf0b96-587b-4868-9b97-136294e17ff2@82bf.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251217
+CATEGORIES:Household waste
+DESCRIPTION:Put out the household waste bin.
+LOCATION:Kerbside
+SUMMARY:🗑️ Household Waste
+UID:5d228e20-4fbf-49d9-8656-24b250432d0e@5d22.org
 END:VEVENT
 BEGIN:VEVENT
 DTSTART;VALUE=DATE:20251022
@@ -175,6 +151,30 @@ CATEGORIES:Household waste
 DESCRIPTION:Put out the household waste bin.
 LOCATION:Kerbside
 SUMMARY:🗑️ Household Waste
-UID:7e941a31-977d-4f2d-a904-31ca25226c04@7e94.org
+UID:981d4534-b687-4f57-8b05-66baec67193e@981d.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20250924
+CATEGORIES:Household waste
+DESCRIPTION:Put out the household waste bin.
+LOCATION:Kerbside
+SUMMARY:🗑️ Household Waste
+UID:b906b529-a3d6-47eb-8f10-9b695d2732a5@b906.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20260107
+CATEGORIES:Mixed recycling
+DESCRIPTION:Put out the mixed recycling bin.
+LOCATION:Kerbside
+SUMMARY:♻️ Recycling
+UID:9c63de7b-38fa-468d-9384-7b74a02f04fd@9c63.org
+END:VEVENT
+BEGIN:VEVENT
+DTSTART;VALUE=DATE:20251105
+CATEGORIES:Household waste
+DESCRIPTION:Put out the household waste bin.
+LOCATION:Kerbside
+SUMMARY:🗑️ Household Waste
+UID:c250fc9a-e52b-4aee-be75-08c95da6ca2d@c250.org
 END:VEVENT
 END:VCALENDAR
